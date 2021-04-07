@@ -4,6 +4,7 @@ namespace XUnitTestLib
 {
     public class Math
     {
+        //add method
         public static int Add(int A, int B)
         {
             return A + B;
