@@ -29,6 +29,7 @@ namespace XUnitTestingProject
         [InlineData(5, 2)]
         [InlineData(5, 3)]
         [InlineData(8, 0)]
+        [InlineData(4, 8)]
         public void TestMathModulo (int A, int B)
         {
             Assert.Equal(A % B, MyLib.Math.Modulo(A, B));
